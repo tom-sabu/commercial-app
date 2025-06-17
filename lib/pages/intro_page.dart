@@ -23,11 +23,15 @@ class IntroPage extends StatelessWidget {
                 fontSize: 38,
               ),
             ),
-            const Text(
-              "Brand new sneakers and custom kicks made with premium quality",
-              style: TextStyle(
-                fontSize: 16, color: Colors.grey),
-              textAlign: TextAlign.center,
+            Padding(
+              padding: const EdgeInsets.only(top: 8, bottom: 20, left: 20, right: 20),
+              child: const Text(
+                "Brand new sneakers and custom kicks made with premium quality",
+                style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.grey),
+                textAlign: TextAlign.center,
+              ),
             ),
             SizedBox(height: 24,),
             GestureDetector(

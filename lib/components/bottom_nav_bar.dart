@@ -12,7 +12,7 @@ class BottomNavBar extends StatelessWidget {
       child: GNav(
         padding: EdgeInsets.all(16),
         // Use full absolute path for GNav if it's not imported directly.
-        color: Colors.grey[800],
+        color: Colors.grey[500],
         // Example color, adjust as needed.
         activeColor: Colors.grey[700],
         // Example color, adjust as needed.
